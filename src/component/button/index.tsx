@@ -5,7 +5,7 @@ type props = {
   title: string,
   color?: string,
   size?: number,
-
+  onClick?: () => void
 }
 
 const ButtonComponent = (Props: props) => {
@@ -23,7 +23,7 @@ const ButtonComponent = (Props: props) => {
         backgroundColor: SECONDARY_COLOR,
       }}
       color={Props.color || SECONDARY_COLOR}
-
+      onClick={Props.onClick}
     >
       <p className="text-white">{Props.title}</p>
     </motion.button>
