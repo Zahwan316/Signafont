@@ -4,6 +4,7 @@ import HomePage from './Page/Home'
 import LoginPage from './Page/Login'
 import ProfilePage from './Page/Profile'
 import PengenalanPage from './Page/Pengenalan'
+import GamePage from './Page/Game'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='login' element={<LoginPage />} />
         <Route path='profile' element={<ProfilePage />} />
         <Route path='pengenalan' element={<PengenalanPage />} />
+        <Route path='game' element={<GamePage />} />
       </Routes>
     </>
   )

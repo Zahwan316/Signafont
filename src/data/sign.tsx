@@ -1,8 +1,31 @@
 const SignAlphabet = [
-  {
-    id:1,
-    url:'/img/sign-a.png',
-  }
+  { id: 1, url: '/img/sign-a.png' },
+  { id: 2, url: '/img/sign-b.png' },
+  { id: 3, url: '/img/sign-c.png' },
+  { id: 4, url: '/img/sign-d.png' },
+  { id: 5, url: '/img/sign-e.png' },
+  { id: 6, url: '/img/sign-f.png' },
+  { id: 7, url: '/img/sign-g.png' },
+  { id: 8, url: '/img/sign-h.png' },
+  { id: 9, url: '/img/sign-i.png' },
+  { id: 10, url: '/img/sign-j.png' },
+  { id: 11, url: '/img/sign-k.png' },
+  { id: 12, url: '/img/sign-l.png' },
+  { id: 13, url: '/img/sign-m.png' },
+  { id: 14, url: '/img/sign-n.png' },
+  { id: 15, url: '/img/sign-o.png' },
+  { id: 16, url: '/img/sign-p.png' },
+  { id: 17, url: '/img/sign-q.png' },
+  { id: 18, url: '/img/sign-r.png' },
+  { id: 19, url: '/img/sign-s.png' },
+  { id: 20, url: '/img/sign-t.png' },
+  { id: 21, url: '/img/sign-u.png' },
+  { id: 22, url: '/img/sign-v.png' },
+  { id: 23, url: '/img/sign-w.png' },
+  { id: 24, url: '/img/sign-x.png' },
+  { id: 25, url: '/img/sign-y.png' },
+  { id: 26, url: '/img/sign-z.png' },
 ]
+
 
 export default SignAlphabet;
