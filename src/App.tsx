@@ -6,6 +6,7 @@ import ProfilePage from './Page/Profile'
 import PengenalanPage from './Page/Pengenalan'
 import GamePage from './Page/Game'
 import FlashCardPage from './Page/Flashcard'
+import SplashPage from './Page/Splash'
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
         <Route path='pengenalan' element={<PengenalanPage />} />
         <Route path='game' element={<GamePage />} />
         <Route path='flashcard' element={<FlashCardPage />} />
+        <Route path='/' element={<SplashPage />} index />
+
       </Routes>
     </>
   )
