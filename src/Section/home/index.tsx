@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import { PRIMARY_COLOR, SECONDARY_COLOR } from "../../constant/color"
 import ButtonComponent from "../../component/button"
 import RoundedProgress from "../../component/rounded_progress"
