@@ -2,6 +2,7 @@ import { ACCENT_COLOR } from "../../../constant/color";
 import {motion} from "motion/react"
 import usePengenalanStore from "../../../state/pengenalan";
 import { MenuPengenalan } from "..";
+import { RightIcon } from "../../../component/icon";
 
 const MenuPengenalanSection = () => {
   const handlerMenu = usePengenalanStore((state) => state.setMenu);
@@ -25,7 +26,7 @@ const MenuPengenalanSection = () => {
           <p className='text-lg text-gray-200'>Website ini dikembangkan oleh mahasiswa Tuli dan Dengar UPI untuk memperkenalkan BISINDO. Info lebih lanjut bisa diakses melalui Pusbisindo di pusbisindo.org</p>
         </div>
         <div className='w-full flex flex-row justify-end items-center'>
-          <motion.button onClick={() => handlerMenu(MenuPengenalan.alphabet)} whileTap={{scale: 0.8}} className="w-12 p-2 rounded-xl" style={{backgroundColor: ACCENT_COLOR}}>Next</motion.button>
+          <motion.button onClick={() => handlerMenu(MenuPengenalan.alphabet)} whileTap={{scale: 0.8}} className="w-12 p-2 rounded-lg" style={{backgroundColor: ACCENT_COLOR}}><RightIcon /></motion.button>
       </div>
     </div>
   )

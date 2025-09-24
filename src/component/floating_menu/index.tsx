@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { AchievmentIcon, GameIcon, HomeIcon, PengenalanIcon, SettingIcon } from "../icon"
+import { AchievmentIcon, FlashCardIcon, GameIcon, HomeIcon, PengenalanIcon, SettingIcon } from "../icon"
 import FloatingMenuItemComponent from "./item"
 
 const FloatingMenuComponent = () => {
@@ -15,14 +15,14 @@ const FloatingMenuComponent = () => {
       icon: <PengenalanIcon />
     },
     {
+      name: 'FlashCard',
+      url: 'flashcard',
+      icon: <FlashCardIcon />
+    },
+    {
       name: 'Game',
       url: 'game',
       icon: <GameIcon />
-    },
-    {
-      name: 'Achievment',
-      url: 'achievment',
-      icon: <AchievmentIcon />
     },
     {
       name: 'Settings',

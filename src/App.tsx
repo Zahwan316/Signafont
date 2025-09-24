@@ -5,6 +5,7 @@ import LoginPage from './Page/Login'
 import ProfilePage from './Page/Profile'
 import PengenalanPage from './Page/Pengenalan'
 import GamePage from './Page/Game'
+import FlashCardPage from './Page/Flashcard'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='profile' element={<ProfilePage />} />
         <Route path='pengenalan' element={<PengenalanPage />} />
         <Route path='game' element={<GamePage />} />
+        <Route path='flashcard' element={<FlashCardPage />} />
       </Routes>
     </>
   )

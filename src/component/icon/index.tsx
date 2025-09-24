@@ -152,6 +152,55 @@ const ArrowLeftIcon = () => {
   )
 }
 
+const HealthIcon = () => {
+  return(
+    <svg width={'46'} height={'46'} viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <rect x="3" y="2" width="44" height="44" fill="url(#pattern0_62_259)"/>
+      <rect width="44" height="44" fill="url(#pattern1_62_259)"/>
+      <defs>
+      <pattern id="pattern0_62_259" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlinkHref="#image0_62_259" transform="scale(0.01)"/>
+      </pattern>
+      <pattern id="pattern1_62_259" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlinkHref="#image1_62_259" transform="scale(0.01)"/>
+      </pattern>
+      <image id="image0_62_259" width="100" height="100" preserveAspectRatio="none" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABtklEQVR4nO2cwY3CQBAEJxACIRECQ2KdBIEQyAXSpxMvS14eFrDl2yqpX/ege+qDfMJVIiIiIiIiIiIiImSy1Dmt7ptZ6my/L5OlLmmVzSx1+Xafo/WbbnDg/aYbHHi/6QYH3m+6wYH3m25w4P120x21MzVZv5ptcOD9arbBgfer2QYH3q9mGxx4v5ptcOD99j+I+/uauJU3D07vc1488KP3e7+Q51PQDM79qP0U0lj9FNJY/RTSWP0U0lj9FNJY/f6rkJ/u/8CffxvdbzohgUchYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhYUUhmVXIKwCHyDdTdEYfKApZM/pAUcia0QeKQtaMPlAUsmb0gaKQNd0f0dzqMfp42Ztn981ddVQ+8qP99qUc+X1ZPRQCQyEwFAJDITAUAiPXOnVfZUT4SnyrR7fftU41E5DH+ffRd8CgEBgKgaEQGAqBoZADkTcffvSewxOFsIhCWEQhLKIQFlEIi/RfdLkro/eIiIiIiIiIiIiI1Cf4Bf2tFhrx3U+GAAAAAElFTkSuQmCC"/>
+      <image id="image1_62_259" width="100" height="100" preserveAspectRatio="none" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABzklEQVR4nO2cwY3CQBAENxACuUSIkjx2iAHR3OO+CMjgTn5aYpHOMt5epkrqlx/0TH3MWnYpAAAAAAAAAAAAAM4cv69f9Xw7PMt0jX4bUy+Pfej++yzTta37jNYv3cDVvF+6gat5v3QDV/N+6Qau5v3SDVzN+y2mNdTSlGT9SraBw7xfyTZwmPcr2QYO834l28Bh3q9kGzjM+y0/iLs89s+y9sC18TuvDvzc+63OdAK69mD/XsT5dhi1H0Lk1Q8h8uqHEHn1Q4i8+iFEXv0+U4juP61n4NO17v2yCQnzIEReQYi8ghB5BSHyCkLkFYTIKwiRVxAiryBEXkGIvIIQeQUh8gpC5BWEyCsIkVcQIq8gRF5BiLyCEHkFIfIKQuQVhMgrCJFXECKvIESJhbyi9yJi4xR3ei8oEDKn94ICIXN6LygQMqf3ggIhc3ovKBAyp/kSzfkevZcXCzN1b81VRuUdL+3HVkJG/l5WC4SYgRAzEGIGQsxAiBnH03XX+pSRwy1xnW5tW59aOl13JRMOx/l15P8Ua4MQMxBiBkLMQIgZCBmIWHnxvecZnkCIF4EQLwIhXgRCvAiEjPKM/rYovecBAAAAAAAAAAAAKO/gD+BJW/G8xCaBAAAAAElFTkSuQmCC"/>
+      </defs>
+    </svg>
+  )
+}
+
+const RightIcon = () => {
+  return(
+    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <rect width="34" height="24" transform="matrix(1 0 0 -1 0 24)" fill="url(#pattern0_218_83)"/>
+      <defs>
+      <pattern id="pattern0_218_83" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlinkHref="#image0_218_83" transform="matrix(0.00705882 0 0 0.01 0.147059 0)"/>
+      </pattern>
+      <image id="image0_218_83" width="100" height="100" preserveAspectRatio="none" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoElEQVR4nO3cu2sUYRTG4XMEQWy0UtDCQlttrLQRvJGZb1cb7bTzf7CMpa1lsBAsYuaMGrDWRrsUWqcyqMRbtaBYKK6MMRuEGPcyM+ebmd8Db5PqO7zM7O7J7ogAAAAAAAAAAAAAAAAA2NRb6muw9xqydUnt+ujv8KEhW9dgw61kd+XMvT3e5+os/auMUV5J3455n62TdPtCigwk5Fe9z9c5+u9CitvXTw12R04u7PY+Z2fojoX8SWorkj484n3WTtBxCtko5bP08ove5209HbeQrVvYbZmf3+V97tbSiQoZ5Zn0Fw96n72VdLpCiqvlraT5ae/zt45OXcjvUr5LyG56z9AqOlMhoxf8Zbm8vN97llbQMgrZyKr08xPe8zSelldIkW+S2A3vmRpNyy1kM/el92Sv92yNpNUUUoQFZWSFFGFBGVkhjgvKsJQWH5aqH7ChSe2FBDtcWx+UYWMk+yi9/FxNhXgPaw1JTQtK/0Gtaal2QRnBgMPmpcIFpf9w1tBUtKD0H8yanbIXlO4DhVakvAVlBMMMW5E0+ypJnlBIiCnZGoWEqPKaQkI0+SKpzVFIiCKrktjxmcugEJs9qT2W87avlDIoxGYIHwyH0SS1N9KzU6WXQSE2RRnZU7nw6EAlZVCITVCE/ZCQ3aph/c4/qPT/ZXyQxM5KLZI8Ke6J7kOHSJNmz+XS4qF6ymgwrbwMfoUVUyEDCXZlshN1nFZ3ZbyUuQdHvedrHK2mEL5KOq2Si+DL1rOKcjHYZRrjYrDLdLYXbn7SVjaNcTHYZRrjYrDLNMbFYJfp+IV84tEaNdDxblEsBuuiO7+LYjEYUSEDFoMOdPsrg8VgPA/BtAUegun+mNhsTVN7J2l2zfs4AAAAAAAAAAAAAAAAgFTmF0MDNE/Ru1YzAAAAAElFTkSuQmCC"/>
+      </defs>
+    </svg>
+
+  )
+}
+
+const FlashCardIcon = () => {
+  return(
+    <svg width="44" height="34" viewBox="0 0 44 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <rect width="44" height="34" fill="url(#pattern0_218_61)"/>
+      <defs>
+      <pattern id="pattern0_218_61" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlinkHref="#image0_218_61" transform="matrix(0.00772727 0 0 0.01 0.113636 0)"/>
+      </pattern>
+      <image id="image0_218_61" width="100" height="100" preserveAspectRatio="none" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADX0lEQVR4nO3dO2gUURjF8ROfiBa+sPGBoPhAQQuxEFshhYjio5Ck0KD4wCIoZvd+awY7EYxFBFFURBArGwsbRSux8dVIoiAiIkQLFQmCGj0ymxBi3NnMQrL37sz5wVcFwtz7Z5bdTfYuICIiIiIiIiIiIhNnNyfDuBnGNjh21GWMJ2BsRYmrfS8/HBFnwTGC8ROM9Dg9KLIFESchtxzXw/jOc4jR8wAFzkPuOG6EsT+AAJXmFSLORW5EXADHDwFsfPI43gPYhFxwvOB9w9NMibuQeQXOgeMP75ud7i55gswrssX7RqefPzAuRqY5ngtgo2t52NqGTHPsgvFNTeP4EY6/PD1sHfK9ZWGKOA1FroXxMIx3YRyo0x3S7nvpjaGDS+B4HY6/FSQkJa6D8bGChOQYp8PxmoKExtipIKFxvJyfIPFDg7EZjqdg7IbxUh3mIhxPo8i9iDg71TU6Psp2kOOcORTh64Q+o7Ex5yeMV+G4sOr1lrhm3J4WBxfEuAzGl55DcNR8Q4lbq16345XsBeng0vKrZP8B+N8MvnJvTrz2iIuG7qiMBIk4Bcbn3jfeqkb5Un6BmMR4JztBBt+i8L/pNmaUG1XW0JadII693jfbUs1A+S+QlRS4PBtBilwVwEazhrtkf8V1xP9BYvze+EEcdzZYkK7EtQy+hd/wQY5432SraW5VWcuLxg8SX0Rj3SG3E9cS/11cQRRkfCkIFcQUJJmCUEFMQZIpCBXEFCSZglBBTEGSKQgVxBQkmYJQQUxBkikIFcQUJJmCUEFMQZIpCBXEFCSZglBBTEGSKQgVxBQkmYJwxByFdwrCEb97B7xTEA5PgSvgnYJwaHoQBAXh0BxAEBSEMD4tf6wvCArSV/Wzi3WX5yCOvShxJYKSzyCf4VhEO2cgONkKYlWO7egu/7zILTjIqQhWloJkgoIERkECoyCBUZDAKEhgGuXgGRuem8i0ErcHsMmsYc4i0+KDy/xvMlNPfB5j5jk+877RlmLir75Iczhmwytyj/fNtlRzHvnAJhjvB353vM/XF3jFi3V87X3jreL0w3EDcififDg+DCAAR8zb8iH8uRUflTf4VUU9nkP0wVgqH+ws/5zH2ArjSRjP1GE6YdwH46Z8fwuniIiIiIiIiIgIJtxfuA9PAapedzcAAAAASUVORK5CYII="/>
+    </defs>
+    </svg>
+
+  )
+}
+
 export {
   GoogleIcon,
   FacebookIcon,
@@ -162,6 +211,8 @@ export {
   GameIcon,
   PengenalanIcon,
   SettingIcon,
-  ArrowLeftIcon
-  
+  ArrowLeftIcon,
+  HealthIcon,
+  RightIcon,
+  FlashCardIcon
 }

@@ -1,8 +1,5 @@
-import { useNavigate } from "react-router-dom";
 import FloatingMenuComponent from "../../component/floating_menu";
 import { ACCENT_COLOR, PRIMARY_COLOR } from "../../constant/color";
-import {motion} from 'motion/react';
-import { useState } from "react";
 import MenuPengenalanSection from "./main";
 import SignSection from "./sign";
 import usePengenalanStore from "../../state/pengenalan";

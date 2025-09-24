@@ -7,8 +7,11 @@ import FloatingMenuComponent from "../../component/floating_menu";
 import { ArrowLeftIcon } from "../../component/icon";
 
 import {motion} from "motion/react"
+import { useNavigate } from "react-router-dom";
 
 const ProfileSection = () => {
+  const navigate = useNavigate();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -19,19 +22,20 @@ const ProfileSection = () => {
   
   return(
     <div className='flex flex-col justify-self-auto' style={{minHeight: '100vh', backgroundImage: "url('/img/Opening.png')", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundColor: PRIMARY_COLOR}}>
-      <div className='w-full h-[15vh] flex justify-left items-center px-8'>
-        <motion.div whileTap={{scale: 0.9}} className='w-12 h-12 flex justify-center items-center rounded-xl' style={{backgroundColor: ACCENT_COLOR}}>
+      <div className='w-full h-[15vh] flex justify-left items-center px-8 z-1'>
+        <motion.div whileTap={{scale: 0.9}} className='w-12 h-12 flex justify-center items-center rounded-xl' style={{backgroundColor: ACCENT_COLOR}} onClick={() => navigate('/home')}>
           <ArrowLeftIcon />
         </motion.div>
 
       </div>
-      <div className="w-full h-[85vh]">
-        <div className="h-[30%]">
+      <div className="w-full h-[85vh] z-6 ">
+        <div className="h-[30%] z-1">
           
         </div>
-        <div className='bg-white h-[70%] rounded-t-[45px] z-30'>
+        <div className='bg-white h-[70%] rounded-t-[45px] z-30 relative'>
           <div className="w-full h-32 flex flex-row justify-center items-center relative z-30" >
-            <div className='rounded-full w-48 h-48 absolute top-[-11vh] z-30' style={{backgroundColor: NEUTRAL_COLOR}}>
+            <div className='rounded-full w-48 h-48 absolute top-[-11vh] z-30 overflow-x-visible flex flex-row justify-center items-center' style={{backgroundColor: NEUTRAL_COLOR}}>
+              <img src='/img/Image.png' />
             </div>
           </div>
           <div className='w-full flex flex-col justify-center items-center mb-8'>
