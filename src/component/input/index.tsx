@@ -1,10 +1,11 @@
-import { NEUTRAL_COLOR, PRIMARY_COLOR } from "../../constant/color"
+import { NEUTRAL_COLOR } from "../../constant/color"
 
 type props = {
   placeholder?: string,
   type?: string,
   name?: string,
   value?: string,
+  onInput?: () => void,
 }
 
 const FormInput = (Props: props) => {
@@ -17,6 +18,7 @@ const FormInput = (Props: props) => {
         value={Props.value}
         className='h-12 rounded-xl font-bold text-gray-600 p-3 text-sm'
         style={{backgroundColor: NEUTRAL_COLOR}}  
+        onInput={Props.onInput}
       />
     </div>
   )

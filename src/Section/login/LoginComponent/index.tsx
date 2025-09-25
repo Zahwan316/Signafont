@@ -1,8 +1,10 @@
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import SosmedButton from '../../../component/button/sosmed';
 import FormInput from '../../../component/input';
 import { NEUTRAL_COLOR } from '../../../constant/color';
 import { AppleIcon, FacebookIcon, GoogleIcon } from '../../../component/icon';
+import { useNavigate } from 'react-router-dom';
+import useFormStore from '../../../state/form';
 
 type icon = {
   name: string,
@@ -10,6 +12,13 @@ type icon = {
 }
 
 const LoginSectionComponent = () => {
+  const formdata = useFormStore((state) => state.userdata)
+  const setFormData = useFormStore((state) => state.setUserData)
+
+  const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({...formdata, [e.target.name]: e.target.value})
+  }
+
   const iconButton: Array<icon> = [
     {
       name: 'Google',
@@ -27,8 +36,8 @@ const LoginSectionComponent = () => {
   return (
     <>
       <div className='mb-12'>
-        <FormInput placeholder='Email' type='email' name='email' />
-        <FormInput placeholder='Password' type='password' name='password' />
+        <FormInput placeholder='Email' type='email' name='email' onInput={(e) => handleInput(e)}/>
+        <FormInput placeholder='Password' type='password' name='password' onInput={(e) => handleInput(e)}/>
       </div>
       <div className='flex flex-row justify-center items-center mb-12'>
         <div
