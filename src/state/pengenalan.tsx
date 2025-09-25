@@ -1,5 +1,4 @@
 import {create} from "zustand";
-import { MenuPengenalan } from "../Section/pengenalan";
 
 type state = {
   menu: string

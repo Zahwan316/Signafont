@@ -1,4 +1,4 @@
-import { useEffect, useState, type EventHandler, type ReactEventHandler } from "react";
+import { useEffect } from "react";
 import { BisindoIcon } from "../../../component/icon";
 import FormInput from "../../../component/input";
 import useFormStore from "../../../state/form";
@@ -20,7 +20,7 @@ const formInput = [
     type: 'password',
   }
 ]
-const RegisterSectionComponent = (props: any) => {
+const RegisterSectionComponent = () => {
   const formdata = useFormStore((state) => state.userdata)
   const setFormData = useFormStore((state) => state.setUserData)
 

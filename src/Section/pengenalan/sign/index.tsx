@@ -1,8 +1,5 @@
 import { useState } from "react";
-import { MenuPengenalan } from "..";
-import { ACCENT_COLOR, NEUTRAL_COLOR, PRIMARY_COLOR } from "../../../constant/color";
-import usePengenalanStore from "../../../state/pengenalan";
-import SecondaryButtonComponent from "../../../component/button/secondary";
+import { NEUTRAL_COLOR} from "../../../constant/color";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -10,16 +7,9 @@ import "slick-carousel/slick/slick-theme.css";
 import SignAlphabet from "../../../data/sign";
 
 const SignSection = () => {
-  const handlerMenu = usePengenalanStore((state) => state.setMenu);
-  const [page, setpage] = useState<number>(1);
+  const [page] = useState<number>(1)
 
-  const handleNextPage = () => {
-    setpage(2);
-  }
 
-  const handlePrevPage = () => {
-    setpage(1);
-  }
 
   const settings = {
     dots: true,

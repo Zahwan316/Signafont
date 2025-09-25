@@ -1,9 +1,8 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import SosmedButton from '../../../component/button/sosmed';
 import FormInput from '../../../component/input';
 import { NEUTRAL_COLOR } from '../../../constant/color';
 import { AppleIcon, FacebookIcon, GoogleIcon } from '../../../component/icon';
-import { useNavigate } from 'react-router-dom';
 import useFormStore from '../../../state/form';
 
 type icon = {
