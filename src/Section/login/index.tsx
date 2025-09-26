@@ -35,9 +35,21 @@ const LoginSection = () => {
     const data = localStorage.getItem('userdata')
     const userData = JSON.parse(data)
 
-    const checkLogin = (userData.email === formData.email && userData.password === formData.password)
+    if(formData === null || Object.keys(formData).length === 0){
+      await Swal.fire({
+        icon: "error",
+        title: "Login Gagal!",
+        text: "Username atau password tidak boleh kosong",
+        confirmButtonColor: PRIMARY_COLOR,
+      });
+
+      return;
+    }
+
+    const checkLogin = (userData?.email === formData?.email && userData?.password === formData?.password)
 
     console.log(checkLogin )
+
 
     if(!checkLogin){
       await Swal.fire({
