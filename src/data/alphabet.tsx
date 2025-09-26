@@ -1,0 +1,31 @@
+const AlphabetCard = [
+  { id: 1, url: '/img/A.png' },
+  { id: 2, url: '/img/B.png' },
+  { id: 3, url: '/img/C.png' },
+  { id: 4, url: '/img/D.png' },
+  { id: 5, url: '/img/E.png' },
+  { id: 6, url: '/img/F.png' },
+  { id: 7, url: '/img/G.png' },
+  { id: 8, url: '/img/H.png' },
+  { id: 9, url: '/img/I.png' },
+  { id: 10, url: '/img/J.png' },
+  { id: 11, url: '/img/K.png' },
+  { id: 12, url: '/img/L.png' },
+  { id: 13, url: '/img/M.png' },
+  { id: 14, url: '/img/N.png' },
+  { id: 15, url: '/img/O.png' },
+  { id: 16, url: '/img/P.png' },
+  { id: 17, url: '/img/Q.png' },
+  { id: 18, url: '/img/R.png' },
+  { id: 19, url: '/img/S.png' },
+  { id: 20, url: '/img/T.png' },
+  { id: 21, url: '/img/U.png' },
+  { id: 22, url: '/img/V.png' },
+  { id: 23, url: '/img/W.png' },
+  { id: 24, url: '/img/X.png' },
+  { id: 25, url: '/img/Y.png' },
+  { id: 26, url: '/img/Z.png' },
+]
+
+
+export default AlphabetCard;

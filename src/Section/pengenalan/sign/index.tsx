@@ -5,11 +5,17 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SignAlphabet from "../../../data/sign";
+import SecondaryButtonComponent from "../../../component/button/secondary";
+import usePengenalanStore from "../../../state/pengenalan";
+import { MenuPengenalan } from "..";
 
 const SignSection = () => {
   const [page] = useState<number>(1)
+  const setMenu = usePengenalanStore((state) => state.setMenu)
 
-
+  const handleBack = () => {
+    setMenu(MenuPengenalan.main);
+  }
 
   const settings = {
     dots: true,
@@ -20,9 +26,12 @@ const SignSection = () => {
   };
 
   return(
-    <div className='w-full ' >
+    <div className='w-full h-1/2' >
+      <div className="mb-8">
+        <SecondaryButtonComponent title="Kembali" onClick={handleBack} />
+      </div>
       <Slider {...settings} >
-        <div className="w-full p-6 rounded-xl mb-8 bg-[#BBD7EC]" style={{backgroundColor: NEUTRAL_COLOR}}>
+        <div className="w-full h-1/2 p-6 rounded-xl mb-8 bg-[#BBD7EC]" style={{backgroundColor: NEUTRAL_COLOR}}>
           <div className="flex flex-wrap gap-8">
             {
               SignAlphabet.map((item, index) => 
